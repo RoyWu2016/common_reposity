@@ -23,8 +23,9 @@ public interface SecKillService {
 	 * 
 	 * @param secKillId
 	 * @return
+	 * @throws Exception 
 	 */
-	SecKill getById(long secKillId);
+	byte[] getById(long secKillId) throws Exception;
 
 	/**
 	 * 秒杀开启时输出秒杀接口地址 否则输出系统时间和秒杀时间 防止用户猜测出秒杀地址的规律

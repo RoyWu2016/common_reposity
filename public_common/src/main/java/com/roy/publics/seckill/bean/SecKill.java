@@ -11,7 +11,7 @@ import java.util.Date;
  * <p>
  * Version: 1.0
  */
-public class SecKill implements Serializable {
+public class SecKill {
 	/**
 	 * 
 	 */
